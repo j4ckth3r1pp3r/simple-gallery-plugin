@@ -1,0 +1,27 @@
+.jgallery * {
+  box-shadow: none !important;
+}
+
+.jgallery {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.jgallery .image {
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+.jgallery .image a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.jgallery.dark {
+  background-color: #757575;
+}
+
+.jgallery.blue {
+  background-color: #106aa9;
+}
